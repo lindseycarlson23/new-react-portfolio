@@ -52,7 +52,7 @@ function Navbar() {
               spy={true}
               smooth={true}
               offset={-70}
-              duraction={500}
+              duration={500}
               to="heroSection"
               className="navbar--content"
             >
@@ -66,7 +66,7 @@ function Navbar() {
               spy={true}
               smooth={true}
               offset={-70}
-              duraction={500}
+              duration={500}
               to="AboutMe"
               className="navbar--content"
             >
@@ -80,7 +80,7 @@ function Navbar() {
               spy={true}
               smooth={true}
               offset={-70}
-              duraction={500}
+              duration={500}
               to="MyPortfolio"
               className="navbar--content"
             >
@@ -95,7 +95,7 @@ function Navbar() {
               spy={true}
               smooth={true}
               offset={-70}
-              duraction={500}
+              duration={500}
               to="Testimonials"
               className="navbar--content"
             >
@@ -110,7 +110,7 @@ function Navbar() {
         spy={true}
         smooth={true}
         offset={-70}
-        duraction={500}
+        duration={500}
         to="Contact"
         className="btn btn-outline-primary"
       >
