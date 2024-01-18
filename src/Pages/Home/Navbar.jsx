@@ -3,7 +3,7 @@ import { Link } from "react-scroll";
 
 function Navbar() {
   const [navActive, setNavActive] = useState(false);
-  
+
   const toggleNav = () => {
     setNavActive(!navActive);
   };
@@ -38,7 +38,7 @@ function Navbar() {
       </div>
       <a
         className={`nav__hamburger ${navActive ? "active" : ""}`}
-        onclick={toggleNav}
+        onClick={toggleNav}
       >
         <span className="nav__hamburger__line"></span>
         <span className="nav__hamburger__line"></span>
