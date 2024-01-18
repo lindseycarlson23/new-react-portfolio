@@ -70,7 +70,7 @@ export default function ContactMe() {
             placeholder="Type your message..."
           />
         </label>
-        <label htmlFor="checkbox" clasName="checkbox--label">
+        <label htmlFor="checkbox" className="checkbox--label">
           <input type="checkbox" required name="checkbox" id="checkbox" />
           <span className="text-sm">I accept the terms</span>
         </label>

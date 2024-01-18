@@ -3,6 +3,7 @@ import { Link } from "react-scroll";
 
 function Navbar() {
   const [navActive, setNavActive] = useState(false);
+  
   const toggleNav = () => {
     setNavActive(!navActive);
   };
@@ -36,12 +37,12 @@ function Navbar() {
         <img src="./img/logo.svg" alt="Logoipsum" />
       </div>
       <a
-        className={`nav_hamburger ${navActive ? "active" : ""}`}
+        className={`nav__hamburger ${navActive ? "active" : ""}`}
         onclick={toggleNav}
       >
-        <span className="nav_hamburger_line"></span>
-        <span className="nav_hamburger_line"></span>
-        <span className="nav_hamburger_line"></span>
+        <span className="nav__hamburger__line"></span>
+        <span className="nav__hamburger__line"></span>
+        <span className="nav__hamburger__line"></span>
       </a>
       <div className={`navbar--items ${navActive ? "active" : ""}`}>
         <ul>
