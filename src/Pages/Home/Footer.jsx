@@ -79,7 +79,7 @@ function Footer() {
         </div>
         <div className="footer--social--icon">
           <ul>
-            <li>
+            {/* <li>
               <a
                 href="https://www.facebook.com/"
                 className="navbar--content"
@@ -122,10 +122,10 @@ function Footer() {
                   />
                 </svg>
               </a>
-            </li>
+            </li> */}
             <li>
               <a
-                href="https://www.twitter.com/"
+                href="https://twitter.com/justmelindseyc"
                 className="navbar--content"
                 target="_blank"
                 rel="noreferrer"
@@ -146,7 +146,7 @@ function Footer() {
             </li>
             <li>
               <a
-                href="https://www.linkedin.com/"
+                href="https://www.linkedin.com/in/lindseycarlson23/"
                 className="navbar--content"
                 target="_blank"
                 rel="noreferrer"
@@ -174,7 +174,7 @@ function Footer() {
       <div className="footer--content--container">
         <p className="footer--content">Made with 💖 by Lindsey</p>
         <div className="footer--social--icon">
-          <ul>
+          {/* <ul>
             <li>
               <Link
                 activeClass="navbar--active-content"
@@ -214,7 +214,7 @@ function Footer() {
                 Cookies Settings
               </Link>
             </li>
-          </ul>
+          </ul> */}
         </div>
       </div>
     </footer>
