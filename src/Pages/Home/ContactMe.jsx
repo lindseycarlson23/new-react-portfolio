@@ -9,11 +9,15 @@ export default function ContactMe() {
           commodi dolorum nesciunt?
         </p>
       </div>
+
       <form
         className="contact--form--container"
         data-netlify="true"
         data-netlify-recaptcha="true"
+        name="contact"
+        method="post"
       >
+        <input type="hidden" name="form-name" value="contact" />
         <div className="container">
           <label htmlFor="first-name" className="contact--label">
             <span className="text-md">First Name</span>
@@ -60,9 +64,9 @@ export default function ContactMe() {
           <span className="text-md">Chooes a topic</span>
           <select id="choose-topic" className="contact--input text-md">
             <option>Select One...</option>
-            <option>Item 1</option>
-            <option>Item 2</option>
-            <option>Item 3</option>
+            <option>Collaboration</option>
+            <option>Employment</option>
+            <option>Freelance</option>
           </select>
         </label>
         <label htmlFor="message" className="contact--label">
@@ -80,7 +84,9 @@ export default function ContactMe() {
         </label> */}
         <div data-netlify-recaptcha="true"></div>
         <div>
-          <button className="btn btn-primary contact--form--btn">Submit</button>
+          <button type="submit" className="btn btn-primary contact--form--btn">
+            Submit
+          </button>
         </div>
       </form>
     </section>
