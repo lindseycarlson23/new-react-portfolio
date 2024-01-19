@@ -1,5 +1,5 @@
 import React from "react";
-import { navigate } from "gatsby";
+// import { navigate } from "gatsby";
 import Recaptcha from "react-google-recaptcha";
 const RECAPTCHA_KEY = "6LePelYpAAAAAB7KamK95m_Y_K5DpcvvcspkH8gw";
 
@@ -118,13 +118,15 @@ export default function ContactMe() {
           <span className="text-sm">I accept the terms</span>
         </label> */}
         <div data-netlify-recaptcha="true"></div>
-        <Recaptcha
-          ref={recaptchaRef}
-          sitekey={RECAPTCHA_KEY}
-          size="normal"
-          id="recaptcha-google"
-          onChange={() => setButtonDisabled(false)} // disable the disabled button!
-        />
+        <div>
+          <Recaptcha
+            ref={recaptchaRef}
+            sitekey={RECAPTCHA_KEY}
+            size="normal"
+            id="recaptcha-google"
+            onChange={() => setButtonDisabled(false)} // disable the disabled button!
+          />
+        </div>
         <div>
           <button
             type="submit"
