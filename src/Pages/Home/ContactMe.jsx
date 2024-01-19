@@ -1,5 +1,5 @@
 import React from "react";
-// import { navigate } from "gatsby";
+import { navigate } from "gatsby";
 import Recaptcha from "react-google-recaptcha";
 const RECAPTCHA_KEY = "6LePelYpAAAAAB7KamK95m_Y_K5DpcvvcspkH8gw";
 
@@ -26,7 +26,7 @@ export default function ContactMe() {
         ...state,
       }).toString(),
     })
-      // .then(() => navigate(form.getAttribute("action")))
+      .then(() => navigate(form.getAttribute("action")))
       .catch((error) => alert(error));
   };
 
