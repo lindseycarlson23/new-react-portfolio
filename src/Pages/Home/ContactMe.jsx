@@ -1,11 +1,42 @@
+import React from "react";
+import Recaptcha from "react-google-recaptcha";
+const RECAPTCHA_KEY = "6LePelYpAAAAAB7KamK95m_Y_K5DpcvvcspkH8gw";
+
 export default function ContactMe() {
+  const [state, setState] = React.useState({});
+  const recaptchaRef = React.createRef();
+  const [buttonDisabled, setButtonDisabled] = React.useState(true);
+
+  const handleChange = (e) => {
+    setState({ ...state, [e.target.name]: e.target.value });
+  };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    const form = e.target;
+    const recaptchaValue = recaptchaRef.current.getValue();
+
+    fetch("/", {
+      method: "POST",
+      headers: { "Content-Type": "application/x-www-form-urlencoded" },
+      body: encode({
+        "form-name": form.getAttribute("name"),
+        "g-recaptcha-response": recaptchaValue,
+        ...state,
+      }),
+    })
+      .then(() => navigate(form.getAttribute("action")))
+      .catch((error) => alert(error));
+  };
+
   return (
     <section id="Contact" className="contact--section">
       <div>
         <p className="sub--title">Get in Touch</p>
         <h2>Contact Me</h2>
         <p className="text-lg">
-          I'd love to hear from you about employment, freelancing, and networking.
+          I'd love to hear from you about employment, freelancing, and
+          networking.
         </p>
       </div>
 
@@ -15,6 +46,8 @@ export default function ContactMe() {
         data-netlify-recaptcha="true"
         name="contact"
         method="post"
+        action="/thank-you"
+        onSubmit={handleSubmit}
       >
         <input type="hidden" name="form-name" value="contact" />
         <div className="container">
@@ -25,6 +58,7 @@ export default function ContactMe() {
               className="contact--input text-md"
               name="first-name"
               id="first-name"
+              onChange={handleChange}
               required
             />
           </label>
@@ -83,8 +117,19 @@ export default function ContactMe() {
           <span className="text-sm">I accept the terms</span>
         </label> */}
         <div data-netlify-recaptcha="true"></div>
+        <Recaptcha
+          ref={recaptchaRef}
+          sitekey={RECAPTCHA_KEY}
+          size="normal"
+          id="recaptcha-google"
+          onChange={() => setButtonDisabled(false)} // disable the disabled button!
+        />
         <div>
-          <button type="submit" className="btn btn-primary contact--form--btn">
+          <button
+            type="submit"
+            className="btn btn-primary contact--form--btn"
+            disabled={buttonDisabled}
+          >
             Submit
           </button>
         </div>
