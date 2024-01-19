@@ -8,6 +8,8 @@ function Navbar() {
     setNavActive(!navActive);
   };
 
+
+
   const closeMenu = () => {
     setNavActive(false);
   };

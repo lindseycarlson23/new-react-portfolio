@@ -9,7 +9,11 @@ export default function ContactMe() {
           commodi dolorum nesciunt?
         </p>
       </div>
-      <form className="contact--form--container">
+      <form
+        className="contact--form--container"
+        data-netlify="true"
+        data-netlify-recaptcha="true"
+      >
         <div className="container">
           <label htmlFor="first-name" className="contact--label">
             <span className="text-md">First Name</span>
@@ -70,10 +74,11 @@ export default function ContactMe() {
             placeholder="Type your message..."
           />
         </label>
-        <label htmlFor="checkbox" className="checkbox--label">
+        {/* <label htmlFor="checkbox" className="checkbox--label">
           <input type="checkbox" required name="checkbox" id="checkbox" />
           <span className="text-sm">I accept the terms</span>
-        </label>
+        </label> */}
+        <div data-netlify-recaptcha="true"></div>
         <div>
           <button className="btn btn-primary contact--form--btn">Submit</button>
         </div>

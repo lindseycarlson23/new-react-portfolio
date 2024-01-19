@@ -1,4 +1,8 @@
+
+
 export default function HeroSection() {
+  
+  
   return (
     <section id="heroSection" className="hero--section">
       <div className="hero--section--content--box">
@@ -16,7 +20,7 @@ export default function HeroSection() {
             Provident sapiente iusto excepturi.
           </p>
         </div>
-        <button className="btn btn-primary">Get in Touch</button>
+        <button className="btn btn-primary" >View my Resume</button>
       </div>
       <div className="hero--section--img">
         <img src="./img/profile_pic.jpg" alt="Hero Section" />
