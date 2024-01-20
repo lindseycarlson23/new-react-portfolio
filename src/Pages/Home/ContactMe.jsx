@@ -6,8 +6,8 @@ const RECAPTCHA_KEY = "6LePelYpAAAAAB7KamK95m_Y_K5DpcvvcspkH8gw";
 
 export default function ContactMe() {
   const [state, setState] = React.useState({});
-  // const recaptchaRef = React.createRef();
-  // const [buttonDisabled, setButtonDisabled] = React.useState(true);
+  const recaptchaRef = React.createRef();
+  const [buttonDisabled, setButtonDisabled] = React.useState(true);
   // const navigate = useNavigate();
 
   // const handleChange = (e) => {
@@ -108,9 +108,11 @@ export default function ContactMe() {
         <div
           class="g-recaptcha"
           data-sitekey="6LePelYpAAAAAB7KamK95m_Y_K5DpcvvcspkH8gw"
-        ></div>
+        >
+
+        </div>
         <div data-netlify-recaptcha="true"></div>
-        {/* <div className="recaptcha--box">
+        <div className="recaptcha--box">
           <Recaptcha
             ref={recaptchaRef}
             sitekey={RECAPTCHA_KEY}
@@ -118,7 +120,7 @@ export default function ContactMe() {
             id="recaptcha-google"
             onChange={() => setButtonDisabled(false)} // disable the disabled button!
           />
-        </div> */}
+        </div>
         <div>
           <button
             type="submit"
