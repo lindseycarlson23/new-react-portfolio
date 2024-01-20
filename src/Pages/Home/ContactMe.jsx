@@ -1,6 +1,6 @@
 import React from "react";
 // import { navigate } from "gatsby";
-import { useNavigate } from "react-router-dom";
+// import { useNavigate } from "react-router-dom";
 // import Recaptcha from "react-google-recaptcha";
 const RECAPTCHA_KEY = "6LePelYpAAAAAB7KamK95m_Y_K5DpcvvcspkH8gw";
 
@@ -49,8 +49,8 @@ export default function ContactMe() {
         data-netlify-recaptcha="true"
         name="contact"
         method="post"
-        // action="/thank-you"
-        // onSubmit={handleSubmit}
+        
+        
       >
         <input type="hidden" name="form-name" value="contact" />
         <div className="container">
@@ -96,15 +96,7 @@ export default function ContactMe() {
             />
           </label>
         </div>
-        {/* <label htmlFor="choose-topic" className="contact--label">
-          <span className="text-md">Chooes a topic</span>
-          <select id="choose-topic" className="contact--input text-md">
-            <option>Select One...</option>
-            <option>Collaboration</option>
-            <option>Employment</option>
-            <option>Freelance</option>
-          </select>
-        </label> */}
+        
         <label htmlFor="message" className="contact--label">
           <span className="text-md">Message</span>
           <textarea
@@ -115,10 +107,7 @@ export default function ContactMe() {
             placeholder="Type your message..."
           />
         </label>
-        {/* <label htmlFor="checkbox" className="checkbox--label">
-          <input type="checkbox" required name="checkbox" id="checkbox" />
-          <span className="text-sm">I accept the terms</span>
-        </label> */}
+        
         <div data-netlify-recaptcha="true"></div>
         {/* <div className="recaptcha--box">
           <Recaptcha
