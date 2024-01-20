@@ -7,7 +7,7 @@ const RECAPTCHA_KEY = "6LePelYpAAAAAB7KamK95m_Y_K5DpcvvcspkH8gw";
 export default function ContactMe() {
   const [state, setState] = React.useState({});
   // const recaptchaRef = React.createRef();
-  const [buttonDisabled, setButtonDisabled] = React.useState(true);
+  // const [buttonDisabled, setButtonDisabled] = React.useState(true);
   // const navigate = useNavigate();
 
   // const handleChange = (e) => {
@@ -50,7 +50,7 @@ export default function ContactMe() {
         name="contact"
         method="post"
         // action="/thank-you"
-        onSubmit={handleSubmit}
+        // onSubmit={handleSubmit}
       >
         <input type="hidden" name="form-name" value="contact" />
         <div className="container">

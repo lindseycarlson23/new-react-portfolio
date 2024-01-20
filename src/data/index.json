@@ -45,31 +45,6 @@
       "title": "UI/UX Design",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec auctor, nisl id lacinia ultrices, nunc nisl ultricies nunc, nec aliquam nis"
     }
-  ],
-  "testimonials": [
-    {
-      "id": "1",
-      "count": "5",
-      "src": "./img/avatar-image.png",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec auctor, nisl id lacinia ultrices, nunc nisl ultricies nunc, nec aliquam nis",
-      "author_name": "John Doe",
-      "author_designation": "CEO, Company Name"
-    },
-    {
-      "id": "2",
-      "count": "5",
-      "src": "./img/avatar-image-1.png",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec auctor, nisl id lacinia ultrices, nunc nisl ultricies nunc, nec aliquam nis",
-      "author_name": "Mary Smith",
-      "author_designation": "CEO, Company Name"
-    },
-    {
-      "id": "3",
-      "count": "5",
-      "src": "./img/avatar-image-2.png",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec auctor, nisl id lacinia ultrices, nunc nisl ultricies nunc, nec aliquam nis",
-      "author_name": "John Doe",
-      "author_designation": "CEO, Company Name"
-    }
   ]
+
 }
