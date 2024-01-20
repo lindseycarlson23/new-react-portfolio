@@ -1,5 +1,6 @@
 import React from "react";
 // import { navigate } from "gatsby";
+import { useNavigate } from "react-router-dom";
 import Recaptcha from "react-google-recaptcha";
 const RECAPTCHA_KEY = "6LePelYpAAAAAB7KamK95m_Y_K5DpcvvcspkH8gw";
 
@@ -7,6 +8,7 @@ export default function ContactMe() {
   const [state, setState] = React.useState({});
   const recaptchaRef = React.createRef();
   const [buttonDisabled, setButtonDisabled] = React.useState(true);
+  const navigate = useNavigate();
 
   const handleChange = (e) => {
     setState({ ...state, [e.target.name]: e.target.value });
@@ -26,7 +28,7 @@ export default function ContactMe() {
         ...state,
       }).toString(),
     })
-      // .then(() => navigate(form.getAttribute("action")))
+      .then(() => navigate(form.getAttribute("action")))
       .catch((error) => alert(error));
   };
 
