@@ -118,7 +118,7 @@ export default function ContactMe() {
           <span className="text-sm">I accept the terms</span>
         </label> */}
         <div data-netlify-recaptcha="true"></div>
-        <div>
+        <div className="recaptcha--box">
           <Recaptcha
             ref={recaptchaRef}
             sitekey={RECAPTCHA_KEY}

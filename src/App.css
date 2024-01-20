@@ -491,6 +491,10 @@ border-radius: 8px;
 border: 1.33px solid var(--primary);
 background: var(--white);
 }
+.recaptcha--box {
+  display: flex;
+  flex-direction: center;
+}
 select {
   -webkit-appearance: none;
   -moz-appearance: none;
