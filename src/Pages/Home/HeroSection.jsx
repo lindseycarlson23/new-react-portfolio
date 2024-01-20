@@ -18,8 +18,11 @@ export default function HeroSection() {
             with HTML5, CSS3, JavaScript, ReactJS, NodeJS, ExpressJS, MongoDB,
             MySQL, and more. Check out my latest work below and reach out!
           </p>
+          <br />
         </div>
-        <button className="btn btn-primary">View my Resume</button>
+        <a href="https://1drv.ms/b/s!AuqJflb966uchlhqwVC6jCPJaUp2?e=jiDSkk">
+          <button className="btn btn-primary">View my Resume</button>
+        </a>
       </div>
       <div className="hero--section--img">
         <img src="./img/profile_pic.jpg" alt="Hero Section" />

@@ -9,14 +9,10 @@ export default function AboutMe() {
           <p className="section--title">About</p>
           <h1 className="skills--section--heading">About Me</h1>
           <p className="hero--section-description">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum
-            obcaecati eaque velit maxime quaerat necessitatibus, consequuntur
-            eum atque tempore alias ullam corporis earum placeat corrupti soluta
-            reprehenderit ratione nostrum minima.
+            Learning, thinking, and creating are my passions. My background is in music, academia, and HR/recruiting. I transitioned to web development to explore a long-standing curiosity about programming and web development, and I have discovered a new way to apply these passions.
           </p>
           <p className="hero--section-description">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum
-            obcaecati eaque velit maxime quaerat necessitatibus.
+            My hobbies include playing French horn in a local orchestra, playing piano, reading, dancing, working out on my Peloton bike, and finding my center through yoga and meditation. I also greatly value my time with my family, friends, and two adorable dogs, and opportunities to give back to my community.
           </p>
         </div>
       </div>
