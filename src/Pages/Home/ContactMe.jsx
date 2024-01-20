@@ -1,36 +1,36 @@
 import React from "react";
 // import { navigate } from "gatsby";
 import { useNavigate } from "react-router-dom";
-import Recaptcha from "react-google-recaptcha";
+// import Recaptcha from "react-google-recaptcha";
 const RECAPTCHA_KEY = "6LePelYpAAAAAB7KamK95m_Y_K5DpcvvcspkH8gw";
 
 export default function ContactMe() {
   const [state, setState] = React.useState({});
-  const recaptchaRef = React.createRef();
+  // const recaptchaRef = React.createRef();
   const [buttonDisabled, setButtonDisabled] = React.useState(true);
-  const navigate = useNavigate();
+  // const navigate = useNavigate();
 
-  const handleChange = (e) => {
-    setState({ ...state, [e.target.name]: e.target.value });
-  };
+  // const handleChange = (e) => {
+  //   setState({ ...state, [e.target.name]: e.target.value });
+  // };
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    const form = e.target;
-    const recaptchaValue = recaptchaRef.current.getValue();
+  // const handleSubmit = (e) => {
+  //   e.preventDefault();
+  //   const form = e.target;
+  //   const recaptchaValue = recaptchaRef.current.getValue();
 
-    fetch("/", {
-      method: "POST",
-      headers: { "Content-Type": "application/x-www-form-urlencoded" },
-      body: new URLSearchParams({
-        "form-name": form.getAttribute("name"),
-        "g-recaptcha-response": recaptchaValue,
-        ...state,
-      }).toString(),
-    })
-      .then(() => navigate(form.getAttribute("action")))
-      .catch((error) => alert(error));
-  };
+  //   fetch("/", {
+  //     method: "POST",
+  //     headers: { "Content-Type": "application/x-www-form-urlencoded" },
+  //     body: new URLSearchParams({
+  //       "form-name": form.getAttribute("name"),
+  //       "g-recaptcha-response": recaptchaValue,
+  //       ...state,
+  //     }).toString(),
+  //   })
+  //     .then(() => navigate(form.getAttribute("action")))
+  //     .catch((error) => alert(error));
+  // };
 
   return (
     <section id="Contact" className="contact--section">
@@ -61,7 +61,7 @@ export default function ContactMe() {
               className="contact--input text-md"
               name="first-name"
               id="first-name"
-              onChange={handleChange}
+              // onChange={handleChange}
               required
             />
           </label>
@@ -120,7 +120,7 @@ export default function ContactMe() {
           <span className="text-sm">I accept the terms</span>
         </label> */}
         <div data-netlify-recaptcha="true"></div>
-        <div className="recaptcha--box">
+        {/* <div className="recaptcha--box">
           <Recaptcha
             ref={recaptchaRef}
             sitekey={RECAPTCHA_KEY}
@@ -128,12 +128,12 @@ export default function ContactMe() {
             id="recaptcha-google"
             onChange={() => setButtonDisabled(false)} // disable the disabled button!
           />
-        </div>
+        </div> */}
         <div>
           <button
             type="submit"
             className="btn btn-primary contact--form--btn"
-            disabled={buttonDisabled}
+            // disabled={buttonDisabled}
           >
             Submit
           </button>
