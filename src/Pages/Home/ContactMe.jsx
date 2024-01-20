@@ -105,12 +105,10 @@ export default function ContactMe() {
             placeholder="Type your message..."
           />
         </label>
-        <div
+        {/* <div
           class="g-recaptcha"
           data-sitekey="6LePelYpAAAAAB7KamK95m_Y_K5DpcvvcspkH8gw"
-        >
-
-        </div>
+        ></div> */}
         {/* <div data-netlify-recaptcha="true"></div>
         <div className="recaptcha--box">
           <Recaptcha
