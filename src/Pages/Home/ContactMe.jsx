@@ -49,8 +49,6 @@ export default function ContactMe() {
         data-netlify-recaptcha="true"
         name="contact"
         method="post"
-        
-        
       >
         <input type="hidden" name="form-name" value="contact" />
         <div className="container">
@@ -96,7 +94,7 @@ export default function ContactMe() {
             />
           </label>
         </div>
-        
+
         <label htmlFor="message" className="contact--label">
           <span className="text-md">Message</span>
           <textarea
@@ -107,7 +105,10 @@ export default function ContactMe() {
             placeholder="Type your message..."
           />
         </label>
-        
+        <div
+          class="g-recaptcha"
+          data-sitekey="6LePelYpAAAAAB7KamK95m_Y_K5DpcvvcspkH8gw"
+        ></div>
         <div data-netlify-recaptcha="true"></div>
         {/* <div className="recaptcha--box">
           <Recaptcha
