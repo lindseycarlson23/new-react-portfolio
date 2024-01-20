@@ -26,7 +26,7 @@ export default function ContactMe() {
         ...state,
       }).toString(),
     })
-      .then(() => navigate(form.getAttribute("action")))
+      // .then(() => navigate(form.getAttribute("action")))
       .catch((error) => alert(error));
   };
 
@@ -47,7 +47,7 @@ export default function ContactMe() {
         data-netlify-recaptcha="true"
         name="contact"
         method="post"
-        action="/thank-you"
+        // action="/thank-you"
         onSubmit={handleSubmit}
       >
         <input type="hidden" name="form-name" value="contact" />
