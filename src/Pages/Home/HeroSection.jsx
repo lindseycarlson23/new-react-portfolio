@@ -20,7 +20,7 @@ export default function HeroSection() {
           </p>
           <br />
         </div>
-        <a href="https://1drv.ms/b/s!AuqJflb966uchlhqwVC6jCPJaUp2?e=jiDSkk">
+        <a href="https://1drv.ms/b/s!AuqJflb966uchlhqwVC6jCPJaUp2?e=B7qPKx">
           <button className="btn btn-primary">View my Resume</button>
         </a>
       </div>
