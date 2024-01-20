@@ -1,8 +1,4 @@
-
-
 export default function HeroSection() {
-  
-  
   return (
     <section id="heroSection" className="hero--section">
       <div className="hero--section--content--box">
@@ -15,12 +11,15 @@ export default function HeroSection() {
             Developer
           </h1>
           <p className="hero--section--description">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            <br /> Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-            Provident sapiente iusto excepturi.
+            Avid learner and creator. I love creating useful, interactive, and
+            visually appealing web applications for individuals and companies.
+            <br />
+            <br /> I'm trained in the MERN stack formally and have experience
+            with HTML5, CSS3, JavaScript, ReactJS, NodeJS, ExpressJS, MongoDB,
+            MySQL, and more. Check out my latest work below and reach out!
           </p>
         </div>
-        <button className="btn btn-primary" >View my Resume</button>
+        <button className="btn btn-primary">View my Resume</button>
       </div>
       <div className="hero--section--img">
         <img src="./img/profile_pic.jpg" alt="Hero Section" />
