@@ -1,4 +1,4 @@
-@import 'normalize.css';
+@import-normalize;
 
 /* Global CSS */
 
@@ -245,6 +245,8 @@ h3 {
   width: 70%;
   height: 70%;
   border-radius: 10%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* Hero Section Style Ends */
@@ -322,7 +324,7 @@ h3 {
 
 /* About Me */
 .about--section {
-  display: grid;
+  display: flex;
   padding: 133.3px 85.3px;
   align-items: center;
   gap: 114.6px;
@@ -331,7 +333,10 @@ h3 {
 .about--section--img > img {
   width: 70%;
   height: 70%;
+  display: block;
   border-radius: 50%;
+  margin-left: auto;
+  margin-right: auto;
 }
 /* About Me Ends*/
 
