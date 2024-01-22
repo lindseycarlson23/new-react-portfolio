@@ -76,7 +76,6 @@ p {
 
 .btn-github {
   color: var(--white);
-  text-decoration: none;
   background-color: var(--github);
   border: var(--github);
   display: flex;

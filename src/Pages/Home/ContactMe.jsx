@@ -109,8 +109,8 @@ export default function ContactMe() {
           class="g-recaptcha"
           data-sitekey="6LePelYpAAAAAB7KamK95m_Y_K5DpcvvcspkH8gw"
         ></div> */}
-        {/* <div data-netlify-recaptcha="true"></div>
-        <div className="recaptcha--box">
+        <div data-netlify-recaptcha="true"></div>
+        {/* <div className="recaptcha--box">
           <Recaptcha
             ref={recaptchaRef}
             sitekey={RECAPTCHA_KEY}
