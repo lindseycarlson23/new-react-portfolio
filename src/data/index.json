@@ -11,7 +11,13 @@
       "src": "./img/tag-1.png",
       "title": "Back-End",
       "description": "Node, MySQL, Express, MongoDB, Mongoose, SQL, GraphQL"
-    }   
+    },   
+    {
+      "id": "3",
+      "src": "./img/feather-pen-1.png",
+      "title": "Tools",
+      "description": "GitHub, Insomnia, Netlify, Heroku, MongoDB Atlas, Trello"
+    }  
   ],
   "portfolio": [
     {
