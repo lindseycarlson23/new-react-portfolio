@@ -8,8 +8,6 @@ function Navbar() {
     setNavActive(!navActive);
   };
 
-
-
   const closeMenu = () => {
     setNavActive(false);
   };
@@ -91,6 +89,20 @@ function Navbar() {
             </Link>
           </li>
 
+          <li>
+            <Link
+              onClick={closeMenu}
+              activeClass="navbar--active-content"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+              to="Contact"
+              className="navbar--content"
+            >
+              Contact Me
+            </Link>
+          </li>
           {/* <li>
             <Link
               onClick={closeMenu}
@@ -99,27 +111,14 @@ function Navbar() {
               smooth={true}
               offset={-70}
               duration={500}
-              to="Testimonials"
+              to="Contact"
               className="navbar--content"
             >
-              Testimonials
+              Contact Me
             </Link>
           </li> */}
-          
         </ul>
       </div>
-      <Link
-        onClick={closeMenu}
-        activeClass="navbar--active-content"
-        spy={true}
-        smooth={true}
-        offset={-70}
-        duration={500}
-        to="Contact"
-        className="btn btn-outline-primary"
-      >
-        Contact Me
-      </Link>
     </nav>
   );
 }
