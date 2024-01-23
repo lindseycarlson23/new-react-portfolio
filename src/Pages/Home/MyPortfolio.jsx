@@ -1,4 +1,5 @@
 import data from "../../data/index.json";
+import { Link } from "react-router-dom";
 
 export default function MyPortfolio() {
   return (
@@ -9,7 +10,6 @@ export default function MyPortfolio() {
           <h2 className="section--heading">My Portfolio</h2>
         </div>
         <div>
-          <a href="https://github.com/lindseycarlson23" class="remove--underline">
           <button className="btn btn-github">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -27,12 +27,11 @@ export default function MyPortfolio() {
             </svg>
             Visit My GitHub
           </button>
-          </a>
         </div>
       </div>
       <div className="portfolio--section--container">
         {data?.portfolio?.map((item, index) => (
-          <div key={index} className="portfolio--section--card">
+          <Link to={item.deployedlink} className="remove--underline"><div key={index} className="portfolio--section--card">
             <div className="portfolio--section--img">
               <img src={item.src} alt="Placeholder" />
             </div>
@@ -41,8 +40,9 @@ export default function MyPortfolio() {
                 <h3 className="portfolio--section--title">{item.title}</h3>
                 <p className="text-md">{item.description}</p>
               </div>
+
               <p className="text-sm portfolio--link">
-                {item.link}
+                <Link to={item.githublink} className="remove--underline">View in GitHub</Link>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="16"
@@ -61,6 +61,7 @@ export default function MyPortfolio() {
               </p>
             </div>
           </div>
+          </Link>
         ))}
       </div>
     </section>

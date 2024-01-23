@@ -25,19 +25,25 @@
       "src": "./img/workouts.png",
       "title": "Fitness Tracker",
       "description": "Social fitness app. Full stack MERN application. Allows users to create accounts, record notes about their favorite video workouts, and connect with friends within the app so they can easily find, repeat, and share the workouts and notes.",
-    "link": "View in GitHub"
+      "githublink": "https://github.com/Bfinch3/fitness-tracker",
+      "deployedlink": "https://fitoness-tracker-779b260a5616.herokuapp.com/"
     },
     {
       "id": "2",
-      "src": "./img/placeholder-image-1.png",
-      "title": "Back-End",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec auctor, nisl id lacinia ultrices, nunc nisl ultricies nunc, nec aliquam nis"
+      "src": "./img/portfolio_screenshot.png",
+      "title": "React Portfolio",
+      "description": "This site! Single-page React application. Online portfolio built from scratch. Created using Vite create-react-app Node package. Created page layout and implemented using React components.",
+      "githublink": "https://github.com/lindseycarlson23/new-react-portfolio",
+      "deployedlink": "https://lindseycdev.com"
+
     },
     {
       "id": "3",
-      "src": "./img/placeholder-image-1.png",
-      "title": "UI/UX Design",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec auctor, nisl id lacinia ultrices, nunc nisl ultricies nunc, nec aliquam nis"
+      "src": "./img/sn_screenshot.png",
+      "title": "Social Network API",
+      "description": "Social Network API built with ExpressJS and NoSQL. Backend only, demonstrated with Insomnia. All CRUD routes and controllers for thoughts and users written from scratch.",
+      "githublink": "https://github.com/lindseycarlson23/social-network-api",
+      "deployedlink": "https://app.screencastify.com/v3/watch/bgNKCcfO1JjzqYnA7RgQ"
     }
   ]
 
