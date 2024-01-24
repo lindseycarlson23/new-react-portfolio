@@ -31,7 +31,7 @@ export default function MyPortfolio() {
       </div>
       <div className="portfolio--section--container">
         {data?.portfolio?.map((item, index) => (
-          <Link to={item.deployedlink} className="remove--underline"><div key={index} className="portfolio--section--card">
+          <Link to={item.deployedlink} className="remove--underline" target="_blank"><div key={index} className="portfolio--section--card">
             <div className="portfolio--section--img">
               <img src={item.src} alt="Placeholder" />
             </div>
