@@ -177,6 +177,7 @@ h3 {
   top: 0;
   left: 0;
   right: 0;
+  height: 2.5rem;
 }
 .navbar--items > ul {
   list-style: none;
@@ -747,6 +748,7 @@ button[disabled] {
     left: 0;
     width: 100%;
     transition: all ease-in-out 0.4s;
+    
   }
   .navbar--items ul {
     flex-direction: column;
