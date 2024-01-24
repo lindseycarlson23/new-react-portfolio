@@ -23,6 +23,9 @@ export default function HeroSection() {
         <a href="https://drive.google.com/file/d/1S8lJnVVRFmzBnbbUR4g-KLJ4tndyGSwO/view?usp=sharing" target="_blank">
           <button className="btn btn-primary">View my Resume</button>
         </a>
+        <a href="./img/bootcamp_certificate.pdf" target="_blank">
+          <button className="btn btn-primary">View my Coding Certificate</button>
+        </a>
       </div>
       <div className="hero--section--img">
         <img src="./img/profile_pic.jpg" alt="Hero Section" />
