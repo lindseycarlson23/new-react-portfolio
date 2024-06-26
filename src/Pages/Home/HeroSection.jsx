@@ -20,7 +20,7 @@ export default function HeroSection() {
           </p>
           <br />
         </div>
-        <a href="https://drive.google.com/file/d/1S8lJnVVRFmzBnbbUR4g-KLJ4tndyGSwO/view?usp=sharing" target="_blank">
+        <a href="https://drive.google.com/file/d/1t90ScyXqiEV9mBBHzkQawZC2VaIOLK8Q/view?usp=sharing" target="_blank">
           <button className="btn btn-primary">View my Resume</button>
         </a>
         <a href="./img/bootcamp_certificate.pdf" target="_blank">

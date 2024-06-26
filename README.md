@@ -20,7 +20,9 @@ N/A
 
 ## Usage
 
-This is a fully functioning portfolio site.
+Website link: https://lindseycdev.com
+
+
 ![alt text](public/img/portfolio_screenshot.png/)
 
 ## License
