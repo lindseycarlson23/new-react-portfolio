@@ -12,9 +12,9 @@ export default function HeroSection() {
           </h1>
           <p className="hero--section--description">
             Avid learner and creator. I love creating useful, interactive, and
-            visually appealing web applications for individuals and companies.
+            visually appealing applications for individuals and companies. I'm also delving more into data, AI,  and Machine Learning.
             <br />
-            <br /> I'm trained in the MERN stack formally and have experience
+            <br /> I'm trained in the MERN stack and Python formally and have experience
             with HTML5, CSS3, JavaScript, ReactJS, NodeJS, ExpressJS, MongoDB,
             MySQL, and more. Check out my latest work below and reach out!
           </p>
