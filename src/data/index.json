@@ -23,10 +23,10 @@
     {
       "id": "1",
       "src": "./img/workouts.png",
-      "title": "Fitness Tracker",
+      "title": "Workout Placita",
       "description": "Social fitness app. Full stack MERN application. Allows users to create accounts, record notes about their favorite video workouts, and connect with friends within the app so they can easily find, repeat, and share the workouts and notes.",
       "githublink": "https://github.com/Bfinch3/fitness-tracker",
-      "deployedlink": "https://fitoness-tracker-779b260a5616.herokuapp.com/"
+      "deployedlink": "https://https://workoutplacita.com/"
     },
     {
       "id": "2",
