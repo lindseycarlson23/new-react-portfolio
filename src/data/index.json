@@ -23,13 +23,21 @@
     {
       "id": "1",
       "src": "./img/workouts.png",
+      "title": "AIML Portfolio",
+      "description": "Portfolio for my projects in UT Austin's Post Gradudate Program in Artificial Intelligence and Machine Learning.",
+      "githublink": "",
+      "deployedlink": "https://olympus.mygreatlearning.com/eportfolio?pb_id=17251"
+    },
+    {
+      "id": "2",
+      "src": "./img/workouts.png",
       "title": "Workout Placita",
       "description": "Social fitness app. Full stack MERN application. Allows users to create accounts, record notes about their favorite video workouts, and connect with friends within the app so they can easily find, repeat, and share the workouts and notes.",
       "githublink": "https://github.com/lindseycarlson23/workout-placita",
       "deployedlink": "https://workoutplacita.com/"
     },
     {
-      "id": "2",
+      "id": "3",
       "src": "./img/portfolio_screenshot.png",
       "title": "React Portfolio",
       "description": "This site! Single-page React application. Online portfolio built from scratch. Created using Vite create-react-app Node package. Created page layout and implemented using React components.",
@@ -38,7 +46,7 @@
 
     },
     {
-      "id": "3",
+      "id": "4",
       "src": "./img/sn_screenshot.png",
       "title": "Social Network API",
       "description": "Social Network API built with ExpressJS and NoSQL. Backend only, demonstrated with Insomnia. All CRUD routes and controllers for thoughts and users written from scratch.",
