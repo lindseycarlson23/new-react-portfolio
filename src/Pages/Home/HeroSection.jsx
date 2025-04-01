@@ -23,6 +23,9 @@ export default function HeroSection() {
         <a href="./img/resume.pdf" target="_blank">
           <button className="btn btn-primary">View my Resume</button>
         </a>
+        <a href="./img/AIML.pdf" target="_blank">
+          <button className="btn btn-primary">View my Post Graduate Certificate in Artifical Intelligence and Machine Learning</button>
+        </a>
         <a href="./img/bootcamp_certificate.pdf" target="_blank">
           <button className="btn btn-primary">View my Coding Bootcamp Certificate</button>
         </a>
