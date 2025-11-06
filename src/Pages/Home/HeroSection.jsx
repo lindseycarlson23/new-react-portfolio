@@ -20,7 +20,7 @@ export default function HeroSection() {
           </p>
           <br />
         </div>
-        <a href="./img/dataresume.pdf" target="_blank">
+        <a href="./img/lindsey_resume_2025.pdf" target="_blank">
           <button className="btn btn-primary">View my Resume</button>
         </a>
         <a href="./img/AIML.pdf" target="_blank">
