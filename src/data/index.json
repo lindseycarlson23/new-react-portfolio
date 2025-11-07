@@ -28,14 +28,38 @@
   "portfolio": [
     {
       "id": "1",
-      "src": "./img/workouts.png",
-      "title": "AIML Portfolio",
-      "description": "Portfolio for my projects in UT Austin's Post Gradudate Program in Artificial Intelligence and Machine Learning.",
+      "src": "./img/placeholder-image.png",
+      "title": "Stock News Sentiment & Summarization",
+      "description": "OBJECTIVE: Developed an AI-driven system for a (hypothetical) investment startup to analyze daily stock news and its impact on stock prices.\n\nDEVELOPMENT: Built a sentiment classifier by generating embeddings with a SentenceTransformer (all-MiniLM-L6-v2) and training a Random Forest model. Separately, used Llama-2 to generate weekly news summaries.\n\nRESULTS: The sentiment model achieved 68% accuracy and a 0.67 weighted F1-score on the test set, effectively distinguishing between positive, neutral, and negative news articles.\n\nIMPACT: Empowers financial analysts with actionable insights by providing real-time sentiment data and automated weekly summaries, leading to more informed investment decisions.",
       "githublink": "",
-      "deployedlink": "https://olympus.mygreatlearning.com/eportfolio?pb_id=17251"
+      "deployedlink": ""
     },
     {
       "id": "2",
+      "src": "./img/placeholder-image.png",
+      "title": "Bank Customer Churn Prediction",
+      "description": "OBJECTIVE: Developed a deep neural network classifier to predict the likelihood of a bank customer 'churning' (leaving the bank) within the next six months.\n\nDEVELOPMENT: Built, trained, and evaluated multiple neural network architectures in Keras (TensorFlow), experimenting with different optimizers (SGD vs. Adam) and regularization (Dropout).\n\nRESULTS: The final model, optimized with Adam, generalized effectively to unseen data, achieving 86% accuracy and a weighted-average recall of 85% on the test set.\n\nIMPACT: Provides a direct tool for the bank to proactively identify at-risk customers and target them with retention campaigns, helping to reduce churn and protect revenue.",
+      "githublink": "",
+      "deployedlink": ""
+    },
+    {
+      "id": "3",
+      "src": "./img/placeholder-image.png",
+      "title": "Personal Loan Campaign",
+      "description": "OBJECTIVE: Developed a predictive model to identify which existing bank customers were most likely to accept a personal loan offer from a marketing campaign.\n\nDEVELOPMENT: Built and optimized a Decision Tree Classifier, using post-pruning to improve generalization and prevent overfitting on new customer data.\n\nRESULTS: Achieved 98.5% accuracy on the unseen test set and, more importantly, 91.3% recall, allowing the model to correctly identify over 9 out of 10 potential loan acceptors.\n\nIMPACT: Created a targeted marketing tool that would hypothetically allow the bank to drastically reduce campaign costs by focusing efforts only on high-probability customers, significantly increasing the campaign's conversion rate and overall ROI.",
+      "githublink": "",
+      "deployedlink": ""
+    },
+    {
+      "id": "4",
+      "src": "./img/placeholder-image.png",
+      "title": "Food Aggregator App (EDA)",
+      "description": "OBJECTIVE: Conducted an exploratory data analysis on over 1,800 orders to identify the most important factors influencing low customer ratings.\n\nDEVELOPMENT: Used statistical (univariate and bivariate) analysis to correlate operational data, such as preparation time and delivery time, with customer-provided ratings.\n\nRESULTS: Discovered a strong negative correlation, finding that orders taking longer than 25 minutes for either food preparation or delivery were significantly more likely to receive low ratings.\n\nIMPACT: Recommended that the business implement a new 25-minute target for both preparation and delivery... directly addressing the primary cause of poor customer experience.",
+      "githublink": "",
+      "deployedlink": ""
+    },
+    {
+      "id": "5",
       "src": "./img/workouts.png",
       "title": "Workout Placita",
       "description": "Social fitness app. Full stack MERN application. Allows users to create accounts, record notes about their favorite video workouts, and connect with friends within the app so they can easily find, repeat, and share the workouts and notes.",
@@ -43,21 +67,13 @@
       "deployedlink": "https://workoutplacita.com/"
     },
     {
-      "id": "3",
+      "id": "6",
       "src": "./img/portfolio_screenshot.png",
       "title": "React Portfolio",
       "description": "This site! Single-page React application. Online portfolio built from scratch. Created using Vite create-react-app Node package. Created page layout and implemented using React components.",
       "githublink": "https://github.com/lindseycarlson23/new-react-portfolio",
       "deployedlink": "https://lindseycdev.com"
 
-    },
-    {
-      "id": "4",
-      "src": "./img/sn_screenshot.png",
-      "title": "Social Network API",
-      "description": "Social Network API built with ExpressJS and NoSQL. Backend only, demonstrated with Insomnia. All CRUD routes and controllers for thoughts and users written from scratch.",
-      "githublink": "https://github.com/lindseycarlson23/social-network-api",
-      "deployedlink": "https://app.screencastify.com/v3/watch/bgNKCcfO1JjzqYnA7RgQ"
     }
   ]
 
