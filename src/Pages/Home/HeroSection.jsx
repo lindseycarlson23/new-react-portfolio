@@ -5,18 +5,12 @@ export default function HeroSection() {
         <div className="hero--section--content">
           <p className="section--title">Hey, I'm Lindsey</p>
           <h1 className="hero--section--title">
-            <span className="hero--section--title--color">Developer and</span>
-            {""}
-            <br />
-            Data Scientist
+            <span className="hero--section--title--color">Data Scientist</span>
           </h1>
           <p className="hero--section--description">
-            Avid learner and creator. I am fascinated by data and the stories we can uncover using Artificial Intelligence and Machine Learning. I also love creating useful, interactive, and
-            visually appealing applications for individuals and companies.
+            Avid learner and data analyst. I am passionate about using Python, Artificial Intelligence, and Machine Learning to uncover data-driven stories and solve business problems.
             <br />
-            <br /> I'm trained in the MERN stack and Python formally and have experience
-            with HTML5, CSS3, JavaScript, ReactJS, NodeJS, ExpressJS, MongoDB,
-            MySQL, and more. Check out my latest work below and reach out!
+            <br /> With a background in full-stack (MERN) development, I not only analyze data but also build the useful, interactive applications that bring those insights to life. My work is focused on creating real-world value, from predicting customer churn to analyzing market sentiment. Check out my latest data science projects below and reach out!
           </p>
           <br />
         </div>
