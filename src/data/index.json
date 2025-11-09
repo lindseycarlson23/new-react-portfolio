@@ -31,7 +31,7 @@
       "src": "./img/stock-news.jpg",
       "title": "Stock News Sentiment & Summarization",
       "description": "Built an AI-driven system to analyze stock news sentiment and generate weekly summaries. This project used a Random Forest classifier trained on SentenceTransformer embeddings for sentiment analysis and Llama-2 for automated text summarization.",
-      "githublink": "",
+      "githublink": "https://github.com/lindseycarlson23/stock-news-sentiment",
       "deployedlink": ""
     },
     {
@@ -39,7 +39,7 @@
       "src": "./img/bank-churn.jpg",
       "title": "Bank Customer Churn Prediction",
       "description": "Developed a deep neural network classifier to predict bank customer churn. This project involved building, training, and evaluating multiple architectures in Keras (TensorFlow), optimizing the final model with Adam and Dropout to achieve 86% accuracy.",
-      "githublink": "",
+      "githublink": "https://github.com/lindseycarlson23/bank-churn",
       "deployedlink": ""
     },
     {
@@ -47,7 +47,7 @@
       "src": "./img/personal-loan.jpg",
       "title": "Personal Loan Campaign",
       "description": "Developed a predictive model to identify customers likely to accept a personal loan. This project used a Decision Tree Classifier optimized with post-pruning to improve generalization, achieving 98.5% accuracy and 91.3% recall.",
-      "githublink": "",
+      "githublink": "https://github.com/lindseycarlson23/loan-campaign",
       "deployedlink": ""
     },
     {
@@ -55,7 +55,7 @@
       "src": "./img/food-agg.jpg",
       "title": "Food Aggregator App (EDA)",
       "description": "Conducted an exploratory data analysis on 1,800+ orders to find the causes of low customer ratings. Used statistical (univariate and bivariate) analysis to correlate operational data with ratings, discovering that delivery and prep times over 25 minutes were the primary driver of low scores.",
-      "githublink": "",
+      "githublink": "https://github.com/lindseycarlson23/foodhub",
       "deployedlink": ""
     },
     {
